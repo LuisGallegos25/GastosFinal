@@ -16,4 +16,14 @@ Route::get('/', function () {
 });
 Route::resource('/contacto','ContactoController');
 Route::resource('/gasto','GastoController');
-Route::resource('/ingreso','IngresoController');
+Route::resource('/ingreso','Ingre   soController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/redirect','SocialController@redirect');
+Route::get('/callback','SocialController@callback');

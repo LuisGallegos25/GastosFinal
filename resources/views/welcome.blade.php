@@ -12,7 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -46,12 +46,14 @@
 
             .title {
                 font-size: 84px;
+                color:white;
+                font-family: 'verdana';
             }
 
             .links > a {
-                color: #636b6f;
+                color: white;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 25px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -61,9 +63,13 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+
         </style>
     </head>
-    <body>
+    <body background="https://www.larutadelsorigens.cat/wallpic/full/8-82119_blur-4k-texturas-fondo-ultra-hd.jpg">
+               
+
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -81,18 +87,20 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                        Social World
                 </div>
-
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <img src="http://getorganizedapp.com/wp-content/uploads/2016/08/banner-5.jpg">
+                </div>
+                <div class="links">
+                    <a href="https://Facebook.com">Facebook</a>
+                    <a href="https://github.com/">Github</a>
+                    <a href="https://www.youtube.com/">YouTube</a>
+                    <a href="https://twitter.com/">Twitter</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://snapchat.com/">Snapchat</a>
+                    <a href="https://www.4chan.org/">4Chan</a>
+                    <a href="https://www.reddit.com/">Reddit</a>
                 </div>
             </div>
         </div>
