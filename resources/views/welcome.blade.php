@@ -23,6 +23,15 @@
             .full-height {
                 height: 100vh;
             }
+            h3 {
+              color: #6D7781;
+                font-family: "Sofia", cursive;
+                font-size: 15px;
+                 font-weight: bold;
+                font-size: 3.6em;
+                text-align: center;
+                margin-bottom: 20px;
+  }
 
             .flex-center {
                 align-items: center;
@@ -63,6 +72,11 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            a {
+            color: white;
+            text-decoration: none;
+            font-size: 50px;
+            }
 
 
         </style>
@@ -87,22 +101,24 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                        Practica Gastos 
+                        Control de Gastos 
                 </div>
                 <div class="links">
                 <img src="http://getorganizedapp.com/wp-content/uploads/2016/08/banner-5.jpg">
                 </div>
-                <div class="links">
-                    <a href="https://Facebook.com">Facebook</a>
-                    <a href="https://github.com/">Github</a>
-                    <a href="https://www.youtube.com/">YouTube</a>
-                    <a href="https://twitter.com/">Twitter</a>
-                    <a href="https://www.instagram.com/">Instagram</a>
-                    <a href="https://snapchat.com/">Snapchat</a>
-                    <a href="https://www.4chan.org/">4Chan</a>
-                    <a href="https://www.reddit.com/">Reddit</a>
-                </div>
+                <nav class='login'>
+                    <ol class='lista'>
+                        <ul><a href="/gasto">Gastos</a></ul>
+                       
+                        <ul><a href="/ingreso">Ingresos</a></ul>
+                        
+                        <ul><a href="/contacto">Contacto</a></ul>
+                    </ol>
+                </nav>
+                
             </div>
+            
         </div>
+        
     </body>
 </html>

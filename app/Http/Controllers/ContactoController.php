@@ -41,7 +41,7 @@ class ContactoController extends Controller
             'apellido'=>'required',
             'ci'=>'required'
         ]);
-
+        
         $datos = new Contacto();
             $datos->nombre = $request->nombre;
             $datos->apellido = $request->apellido;
