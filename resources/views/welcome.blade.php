@@ -106,15 +106,7 @@
                 <div class="links">
                 <img src="http://getorganizedapp.com/wp-content/uploads/2016/08/banner-5.jpg">
                 </div>
-                <nav class='login'>
-                    <ol class='lista'>
-                        <ul><a href="/gasto">Gastos</a></ul>
-                       
-                        <ul><a href="/ingreso">Ingresos</a></ul>
-                        
-                        <ul><a href="/contacto">Contacto</a></ul>
-                    </ol>
-                </nav>
+                
                 
             </div>
             
