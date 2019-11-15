@@ -12,6 +12,7 @@
       <a class="nav-item nav-link" href="{{ route('gasto.index')}}">GASTOS</a>
     </div>
   </div>
+  
 </nav>
 <div class="row">
     <div class="col-sm-12">

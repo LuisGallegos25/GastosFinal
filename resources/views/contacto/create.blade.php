@@ -36,8 +36,7 @@
              <div class="form-group">
                  <label for="celular">Celular:</label>
                  <input type="text" class="form-control" name="celular"/>
-             </div>
-                                      
+             </div>                         
              <button type="submit" class="btn btn-primary-outline">Agregar Contacto</button>
          </form>
      </div>

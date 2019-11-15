@@ -87,7 +87,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                        Social World
+                        Practica Gastos 
                 </div>
                 <div class="links">
                 <img src="http://getorganizedapp.com/wp-content/uploads/2016/08/banner-5.jpg">

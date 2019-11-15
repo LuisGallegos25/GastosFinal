@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 Route::resource('/contacto','ContactoController');
 Route::resource('/gasto','GastoController');
-Route::resource('/ingreso','Ingre   soController');
+Route::resource('/ingreso','IngresoController');
 
 Auth::routes();
 
