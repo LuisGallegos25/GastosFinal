@@ -10,21 +10,21 @@
          <form method="post" action="{{ route('contact.store') }}">
              @csrf
              <div class="form-group">    
-                 <label for="name">Nombre:</label>
+                 <label>Nombre:</label>
                  <input type="text" class="form-control" name="name"/>
              </div>
    
              <div class="form-group">
-                 <label for="email">Correo:</label>
-                 <input type="text" class="form-control" name="email"/>
+                 <label >Correo:</label>
+                 <input type="email" class="form-control" name="email"/>
              </div>
    
              <div class="form-group">
-                 <label for="subject">Asunto:</label>
+                 <label >Asunto:</label>
                  <input type="text" class="form-control" name="subject"/>
              </div>
              <div class="form-group">
-                 <label for="content">contenido:</label>
+                 <label >contenido:</label>
                  <input type="text" class="form-control" name="content"/>
              </div>                                      
              <button type="submit" class="btn btn-primary-outline">Agregar Gasto</button>

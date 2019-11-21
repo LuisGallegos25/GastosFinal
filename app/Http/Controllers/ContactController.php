@@ -18,9 +18,10 @@ class ContactController extends Controller
             'content' => 'required|min:3'
         ]);
         
-        Mail::to('albertogallego356@gmail.com')->queue(new MessageReceived($msg));
+        //Mail::to('albertogallego356@gmail.com')->queue(new MessageReceived($msg));
         
       // $alert= Alert::success('Mensaje Enviado','Te responderemos algun dia');
-     return redirect('/contacto')->with('toast_success','Mensaje Enviado ');
+     //return redirect('/contacto')->with('toast_success','Mensaje Enviado ');
+     return new MessageReceived($msg);
     }
 }
