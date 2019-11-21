@@ -19,7 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGjyZX2pRY4Hx9C2D_eDJ_qeEo8C4nsFpKcyC8capb9BkK4opGHg&s">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">

@@ -96,6 +96,7 @@ class GastoController extends Controller
         $gasto->save();
         $datos=Gasto::all();
         return view('gasto.index', compact('datos'));
+        
     }
 
     /**
@@ -107,7 +108,7 @@ class GastoController extends Controller
     public function destroy(Gasto $gasto)
     {
         $gasto->delete();
-        $datos=Contacto::all();
-        return view('contacto.index', compact('datos'));
+        $datos=Gasto::all();
+        return view('gasto.index', compact('datos'));
     }
 }

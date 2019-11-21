@@ -107,7 +107,9 @@ class IngresoController extends Controller
     public function destroy(Ingreso $ingreso)
     {
         $ingreso->delete();
-        $datos=Contacto::all();
-        return view('contacto.index', compact('datos'));
+        $datos=Ingreso::all();
+        return view('ingreso.index', compact('datos'));
+        
+        
     }
 }

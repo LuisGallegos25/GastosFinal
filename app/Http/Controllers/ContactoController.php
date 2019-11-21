@@ -61,7 +61,7 @@ class ContactoController extends Controller
      */
     public function show(Contacto $contacto)
     {
-        //
+        
     }
 
     /**

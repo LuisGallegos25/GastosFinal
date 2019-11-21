@@ -23,7 +23,13 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
+
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/redirect','SocialController@redirect');
 Route::get('/callback','SocialController@callback');
-Route::post('contacto','MessagesController@store');
+
+Route::resource('/contact','ContactController');
+Route::view('/contact', 'contact')->name('contact');
+
+Route::post('/email','MessagesController@store');
+

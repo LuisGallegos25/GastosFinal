@@ -90,10 +90,10 @@
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('login') }}">Ingresar</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <a href="{{ route('register') }}">Registrarse</a>
                         @endif
                     @endauth
                 </div>
@@ -104,7 +104,8 @@
                         Control de Gastos 
                 </div>
                 <div class="links">
-                <img src="http://getorganizedapp.com/wp-content/uploads/2016/08/banner-5.jpg">
+                    
+                    
                 </div>
                 
                 

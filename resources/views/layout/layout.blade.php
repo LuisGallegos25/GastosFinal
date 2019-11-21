@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGjyZX2pRY4Hx9C2D_eDJ_qeEo8C4nsFpKcyC8capb9BkK4opGHg&s">
     <div class="container">
         @yield('content');
     </div>

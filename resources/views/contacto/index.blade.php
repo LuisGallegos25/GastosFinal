@@ -10,7 +10,8 @@
       <a class="nav-item nav-link active" href="{{ route('contacto.index')}}">CONTACTOS <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="{{ route('ingreso.index')}}">INGRESOS</a>
       <a class="nav-item nav-link" href="{{ route('gasto.index')}}">GASTOS</a>
-      <a href="{{url('logout')}}">Cerrar sesion</a>
+      <a class="nav-item nav-link" href="/contact">reporte</a>
+      <a class="nav-item nav-link" href="{{url('logout')}}">Cerrar sesion</a>
     </div>
   </div>
   
