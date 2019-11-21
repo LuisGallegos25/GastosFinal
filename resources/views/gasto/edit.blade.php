@@ -35,7 +35,7 @@
                  <input type="text" class="form-control" name="monto" value="{{$gasto->monto}}"/>
              </div>
                                       
-             <button type="submit" class="btn btn-primary-outline">Actualizar Gasto</button>
+             <button type="submit" class="btn btn-primary">Actualizar Gasto</button>
          </form>
      </div>
    </div>

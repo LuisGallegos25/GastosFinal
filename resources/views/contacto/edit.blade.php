@@ -39,7 +39,7 @@
                  <input type="text" class="form-control" name="celular" value="{{$contacto->celular}}"/>
              </div>
                                       
-             <button type="submit" class="btn btn-primary-outline">Actualizar Contacto</button>
+             <button type="submit" class="btn btn-primary">Actualizar Contacto</button>
          </form>
      </div>
    </div>

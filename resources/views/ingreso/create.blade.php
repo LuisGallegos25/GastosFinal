@@ -33,7 +33,7 @@
                  <label for="monto">Monto:</label>
                  <input type="text" class="form-control" name="monto"/>
              </div>                                      
-             <button type="submit" class="btn btn-primary-outline">Agregar Ingreso</button>
+             <button type="submit" class="btn btn-primary">Agregar Ingreso</button>
          </form>
      </div>
    </div>

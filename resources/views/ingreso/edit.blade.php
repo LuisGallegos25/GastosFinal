@@ -35,7 +35,7 @@
                  <input type="text" class="form-control" name="monto" value="{{$ingreso->monto}}"/>
              </div>
                                       
-             <button type="submit" class="btn btn-primary-outline">Actualizar Ingreso</button>
+             <button type="submit" class="btn btn-primary">Actualizar Ingreso</button>
          </form>
      </div>
    </div>

@@ -27,7 +27,7 @@
                  <label >contenido:</label>
                  <input type="text" class="form-control" name="content"/>
              </div>                                      
-             <button type="submit" class="btn btn-primary-outline">Agregar Gasto</button>
+             <button type="submit" class="btn btn-primary">Enviar</button>
          </form>
      </div>
    </div>
