@@ -18,7 +18,7 @@ class ContactController extends Controller
             'content' => 'required|min:3'
         ]);
         
-        //MAILTRAP
+        //
         Mail::to('albertogallego356@gmail.com')->queue(new MessageReceived($msg));
         return 'Mensaje Enviado';
 

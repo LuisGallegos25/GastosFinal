@@ -15,20 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 Auth::routes();
+Route::resource('/contact','ContactController');
 Route::resource('/contacto','ContactoController');
 Route::resource('/gasto','GastoController');
 Route::resource('/ingreso','IngresoController');
 
 Route::view('/contact', 'contact')->name('contact');
-Route::resource('/contact','ContactController');
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::get('/redirect/{provider}','SocialController@redirect');
 Route::get('/callback/{provider}','SocialController@callback');
-
-
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout' );
