@@ -14,22 +14,24 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Auth::routes();
 Route::resource('/contacto','ContactoController');
 Route::resource('/gasto','GastoController');
 Route::resource('/ingreso','IngresoController');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/redirect','SocialController@redirect');
-Route::get('/callback','SocialController@callback');
-
-Route::resource('/contact','ContactController');
 Route::view('/contact', 'contact')->name('contact');
+Route::resource('/contact','ContactController');
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/redirect/{provider}','SocialController@redirect');
+Route::get('/callback/{provider}','SocialController@callback');
+
+
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/logout', 'Auth\LoginController@logout')->name('logout' );
 
 Route::post('/email','MessagesController@store');
 
