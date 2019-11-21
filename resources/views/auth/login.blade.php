@@ -70,7 +70,7 @@
                         <div class="panel-footer">
                             <center>
                             <a class="btn btn-primary"  href="redirect/facebook">Facebook</a>
-                            <a class="btn btn-primary" style="background:red" >Google</a>
+                            <a class="btn btn-primary" style="background:red" href="redirect/google">Google</a>
                             <a class="btn btn-primary" style="background:gray" href="redirect/github">Github</a>
                             </center>
                         </div>
